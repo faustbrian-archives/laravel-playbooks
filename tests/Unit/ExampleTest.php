@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Playbook\Tests\Unit;
+namespace KodeKeep\Playbooks\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 

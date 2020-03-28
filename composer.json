@@ -51,11 +51,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KodeKeep\\Playbook\\Providers\\PlaybookServiceProvider"
-            ],
-            "aliases": {
-                "Playbook": "KodeKeep\\Playbook\\Facades\\Playbook"
-            }
+                "KodeKeep\\Playbooks\\Providers\\PlaybooksServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
