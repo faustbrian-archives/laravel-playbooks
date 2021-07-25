@@ -3,21 +3,21 @@
 declare(strict_types=1);
 
 /*
- * This file is part of kodekeep/laravel-playbooks.
+ * This file is part of konceiver/laravel-playbooks.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Playbooks\Commands;
+namespace Konceiver\Playbooks\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Str;
-use KodeKeep\Playbooks\Playbook;
-use KodeKeep\Playbooks\PlaybookDefinition;
+use Konceiver\Playbooks\Playbook;
+use Konceiver\Playbooks\PlaybookDefinition;
 use Symfony\Component\Console\Question\Question;
 
 final class RunPlaybookCommand extends Command

@@ -1,42 +1,43 @@
 {
-    "name": "kodekeep/laravel-playbooks",
+    "name": "konceiver/laravel-playbooks",
     "description": "Playbooks to prepare your environment for Laravel.",
     "keywords": [
-        "kodekeep",
+        "konceiver",
         "laravel-playbooks"
     ],
-    "homepage": "https://github.com/kodekeep/laravel-playbooks",
+    "homepage": "https://github.com/konceiver/laravel-playbooks",
     "license": "MPL-2.0",
     "authors": [
         {
             "name": "Brian Faust",
-            "email": "brian@kodekeep.com",
-            "homepage": "https://kodekeep.com",
+            "email": "hello@konceiver.dev",
+            "homepage": "https://konceiver.dev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4",
-        "illuminate/contracts": "^6.0|^7.0",
-        "illuminate/support": "^6.0|^7.0"
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "illuminate/support": "^8.0",
+        "spatie/laravel-package-tools": "^1.9"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "graham-campbell/analyzer": "^2.4",
-        "orchestra/testbench": "^4.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "graham-campbell/analyzer": "^3.0",
+        "orchestra/testbench": "^6.0",
         "phpstan/phpstan": "^0.12.11",
-        "phpunit/phpunit": "^8.3",
-        "spatie/phpunit-snapshot-assertions": "^3.1",
-        "symfony/var-dumper": "4.4"
+        "phpunit/phpunit": "^9.5",
+        "spatie/phpunit-snapshot-assertions": "^4.2",
+        "symfony/var-dumper": "^5.1"
     },
     "autoload": {
         "psr-4": {
-            "KodeKeep\\Playbooks\\": "src"
+            "Konceiver\\Playbooks\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KodeKeep\\Playbooks\\Tests\\": "tests"
+            "Konceiver\\Playbooks\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KodeKeep\\Playbooks\\Providers\\PlaybooksServiceProvider"
+                "Konceiver\\Playbooks\\Providers\\PlaybooksServiceProvider"
             ]
         }
     },
